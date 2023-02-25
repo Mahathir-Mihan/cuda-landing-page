@@ -1,0 +1,140 @@
+/* Mobile device */
+@media (max-width: 600px) {
+  /* Global Css  */
+  p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  section {
+    padding: 50px 0px;
+  }
+  h1{
+    font-size: 30px;
+	line-height: 30px;
+  }
+  h4,b{
+    font-size: 14px;
+	line-height: 16px; 	
+  }
+  img{
+  	width: 100%;
+  }
+  /* Layout  */
+  [class*="col-s-"] {
+    float: left;
+  }
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  /* Header part  */
+  .logo,
+  .menuebarbutton {
+    text-align: center;
+    margin: 20px;
+  }
+  .logo{
+  	width: 33%;
+  	text-align: center !important;
+  	float: center;
+  }
+  .menuebarbutton a {
+    font-size: 10px;
+    transition: ease-in-out;
+  }
+  .menuebarbutton a:active{
+	background-color: rgb(100,58,121);
+	border-radius: 5px;
+}
+  .menuebarbutton{
+  	width: 100%;
+  }
+  .heropart {
+    padding: 100px 0px;
+  }
+  .heropart h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+    /* service sction  */
+  .service .box {
+    margin-top: 20px;
+  }
+  .service .box img {
+    width: 50%;
+    height: 90px;
+  }
+    /* Team section  */
+  .team .box {
+    margin-top: 20px;
+  }
+  .team .box img {
+    max-width: 100%;
+    width: 70%;
+  }
+  .team i {
+    font-size: 14px;
+    padding: 7px;
+  }
+  .skill img{
+  	width: 70%;
+  	margin: 10px;
+  }
+  .portfolio img {
+   	max-width: 100%;
+   	margin: 20px;
+  }
+  .portfolio .buttonbar button:active{
+  	background-color: #fff;
+  }
+  .box-part{
+  	margin-top: 40px;
+  	padding: 20px;
+  }
+  .iconrow-s{
+  	float: left;
+  }
+  form {
+    width: 100%;
+  }
+  input,
+  textarea {
+    padding: 7px;
+    font-size: 14px;
+  }
+  footer a{
+  	width: 14.28%
+  }
+}
